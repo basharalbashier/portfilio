@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  portfilio:
+    image: portfilio
+    build:
+      context: .
+      dockerfile: ./Dockerfile
